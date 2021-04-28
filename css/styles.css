@@ -1,0 +1,166 @@
+/* START GLOBAL */
+body {
+  background-color: black;
+  color: white;
+}
+button {
+  width: 207px;
+  height: 38px;
+  left: 730px;
+  top: 568px;
+
+  background-color: black;
+  color: white;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+}
+h3 {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+}
+h4 {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 36px;
+}
+p {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+/* END GLOBAL */
+
+/* START NAVIGATION */
+.navigation {
+}
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+.logo {
+  width: 10%;
+  padding:1.5%;
+  padding-left: 300px;
+
+}
+nav {
+  width: 67%;
+  padding: 1%;
+}
+ul {
+  width: 50%;
+  margin-left: auto;
+  text-align: right;
+  padding-right: 300px;
+}
+li {
+  padding-left: 30px;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+/* END NAVIGATION */
+
+/* START "ABOUT ME" */
+.heroimg {
+  display: flex;
+  height: 600px;
+  padding: 150px;
+  padding-left: 300px;
+}
+#headshot {
+  width: 800px;
+  height: 900px;
+  left: 163px;
+  top: 199px;
+  padding-bottom: 100px;
+}
+.content {
+  width: 800px;
+  height: 151px;
+  left: 730px;
+  top: 412px;
+  padding: 225px;
+}
+img {
+  width: 80%;
+}
+/* END "ABOUT ME" */
+
+/* START "MY SKILLS" */
+#skills {
+  padding-top: 150px;
+  padding-left: 300px;
+}
+.flexcontainer {
+  display: flex;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+.flexchild {
+  width: 33%;
+  padding-right:50px;
+
+}
+/* END "MY SKILLS" */
+
+/* START "FEATURED PROJECTS" */
+#projects {
+  text-align: Center;
+  padding: 150px;
+}
+.workgrid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  text-align: center;
+}
+.grid1 {
+  grid-area: 1 / 1 / ;
+}
+.grid2 {
+  grid-area: 2 / 1 / ;
+}
+#viewallprojects {
+  text-align: center;
+  padding: 100px;
+  color: lightgrey;
+}
+/* END "FEATURED PROJECTS" */
+
+/* START FOOTER */
+footer {
+  background-color: #0E0E0E;
+}
+footer ul {
+  padding: 50px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+#copyrightfooter {
+  padding: 20px;
+  text-align: center;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: lightgrey;
+}
+
+/* END FOOTER */
