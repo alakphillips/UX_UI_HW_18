@@ -14,30 +14,26 @@ button {
   border: 1px solid #FFFFFF;
   box-sizing: border-box;
 }
-h1 {
+h1, h3, h4, p {
   font-family: Roboto;
   font-style: normal;
+}
+h1 {
   font-weight: bold;
   font-size: 48px;
   line-height: 62px;
 }
 h3 {
-  font-family: roboto;
-  font-style: normal;
   font-weight: 600;
   font-size: 28px;
   line-height: 36px;
 }
 h4 {
-  font-family: roboto;
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 36px;
 }
 p {
-  font-family: roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
 }
@@ -146,10 +142,11 @@ img {
 /* START FOOTER */
 footer {
   background-color: #0E0E0E;
+  width: 100%;
 }
 footer ul {
+  justify-content: center;
   padding: 50px;
-  width: 100%;
   color: white;
   text-align: center;
 }
@@ -162,5 +159,4 @@ footer ul {
   font-size: 10px;
   color: lightgrey;
 }
-
 /* END FOOTER */
