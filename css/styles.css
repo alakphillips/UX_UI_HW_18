@@ -144,11 +144,17 @@ footer {
   background-color: #0E0E0E;
   width: 100%;
 }
-footer ul {
+.footer {
   justify-content: center;
   padding: 50px;
   color: white;
   text-align: center;
+}
+.footer_text {
+  font-family: Roboto;
+  font-style: normal;
+  display: inline-block;
+  padding: 10px;
 }
 #copyrightfooter {
   padding: 20px;
@@ -159,4 +165,5 @@ footer ul {
   font-size: 10px;
   color: lightgrey;
 }
+
 /* END FOOTER */
